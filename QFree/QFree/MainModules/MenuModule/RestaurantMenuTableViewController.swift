@@ -103,6 +103,7 @@ class RestaurantMenuTableViewController: BaseTableViewController {
         cell.buttonMinusCallback = {
             if self.basket[self.products[indexPath.row]] != nil && self.basket[self.products[indexPath.row]] != 0 {
                 self.basket[self.products[indexPath.row]]! -= 1
+            
                 cell.amountLabel.text = String(self.basket[self.products[indexPath.row]]!)
             }
             cell.amountLabel.text = String(self.basket[self.products[indexPath.row]]!)

@@ -52,6 +52,12 @@ class BasketViewController: BaseViewController {
         self.orderButton.isHidden = self.basket.isEmpty
         self.emptyBasketLabel.isHidden = !self.basket.isEmpty
         if !self.basket.isEmpty {
+            print("basket updated")
+            for (item, value) in basket{
+                if value == 0{
+                    basket.removeValue(forKey: item)
+                }
+            }
             self.products = basket.map { $0.key }
             self.tableView.reloadData()
         }

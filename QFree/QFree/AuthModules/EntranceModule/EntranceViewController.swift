@@ -38,6 +38,8 @@ class EntranceViewController: BaseViewController {
         emailTextField = BaseTextField()
         emailTextField.keyboardType = .emailAddress
         emailTextField.placeholder = "Почта"
+        emailTextField.autocapitalizationType = .none
+        emailTextField.autocorrectionType = .no
         emailTextField.translatesAutoresizingMaskIntoConstraints = false
         emailTextField.heightAnchor.constraint(equalToConstant: Brandbook.defaultButtonHeight).isActive = true
         
