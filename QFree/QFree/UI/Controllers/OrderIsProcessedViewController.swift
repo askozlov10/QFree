@@ -34,7 +34,7 @@ class OrderIsProcessedViewController: UIViewController {
         ])
 
         let subtitleLabel = UILabel()
-        subtitleLabel.text = "Номер вашего заказа: A24"
+        subtitleLabel.text = "Номер вашего заказа: B30"
         subtitleLabel.textColor = Brandbook.defaultColor
         subtitleLabel.textAlignment = .center
         subtitleLabel.font = Brandbook.font(size: 20, weight: .bold)

@@ -96,6 +96,7 @@
 		CE62277C25598E3B00DC01AB /* EmailConfirmationModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62277B25598E3B00DC01AB /* EmailConfirmationModuleBuilder.swift */; };
 		CE62277F25598EA500DC01AB /* EmailConfirmationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62277E25598EA500DC01AB /* EmailConfirmationInteractor.swift */; };
 		CE62278225598EBF00DC01AB /* EmailConfirmationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62278125598EBF00DC01AB /* EmailConfirmationRouter.swift */; };
+		CECF04F726270D85004C9BA5 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECF04F626270D85004C9BA5 /* JSONHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -192,6 +193,7 @@
 		CE62277B25598E3B00DC01AB /* EmailConfirmationModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationModuleBuilder.swift; sourceTree = "<group>"; };
 		CE62277E25598EA500DC01AB /* EmailConfirmationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationInteractor.swift; sourceTree = "<group>"; };
 		CE62278125598EBF00DC01AB /* EmailConfirmationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationRouter.swift; sourceTree = "<group>"; };
+		CECF04F626270D85004C9BA5 /* JSONHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +264,7 @@
 		341184F625438911006D1361 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				CECF04F626270D85004C9BA5 /* JSONHandler.swift */,
 				341A00A525448418006F0523 /* AuthValidator.swift */,
 				3438507A2544C1DA0048B43B /* AuthError.swift */,
 				B738CB07257E717F00D8D2E7 /* Coordinator.swift */,
@@ -687,6 +690,7 @@
 				34585921256F08E300E47E7E /* MapManager.swift in Sources */,
 				345CB41B25AB635D001FC9F5 /* OrdersViewController.swift in Sources */,
 				B738CB7C2586DB8200B81422 /* TabBarRouter.swift in Sources */,
+				CECF04F726270D85004C9BA5 /* JSONHandler.swift in Sources */,
 				B78228C42548EA480052A546 /* TabBarController.swift in Sources */,
 				B78229062548EADE0052A546 /* SearchVC.swift in Sources */,
 				B78229032548EADE0052A546 /* SearchPresenter.swift in Sources */,
